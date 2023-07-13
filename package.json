@@ -7,7 +7,7 @@
     "merge": "node lrMergeChests.js",
     "build": "node lrSortAndBuild.js"
   },
-  "keywords": ["lootrun", "merge", "build", "minecraft"],
+  "keywords": ["lootrun", "merge", "build", "minecraft", "wynncraft", "artemis", "wynntils"],
   "author": "re-vc",
   "license": "MIT"
 }
