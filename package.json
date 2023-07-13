@@ -1,0 +1,13 @@
+{
+  "name": "lootrun-tools",
+  "version": "1.0.0",
+  "description": "A set of Node.js scripts to merge 'chest' points from JSON files and generate 'lootrun' data with options for point interpolation and height override.",
+  "main": "lrMergeChests.js",
+  "scripts": {
+    "merge": "node lrMergeChests.js",
+    "build": "node lrSortAndBuild.js"
+  },
+  "keywords": ["lootrun", "merge", "build", "minecraft"],
+  "author": "re-vc",
+  "license": "MIT"
+}
