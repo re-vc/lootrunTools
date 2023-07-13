@@ -20,7 +20,8 @@ Ensure you have Node.js installed. You can download it from [here](https://nodej
 ### Merge Script
 
 To run the merge script, use the following command:
-node lrMergeChests.js [inputPath]
+
+`node lrMergeChests.js [inputPath]`
 
 #### Parameters
 
@@ -29,12 +30,14 @@ node lrMergeChests.js [inputPath]
 #### Example
 
 To merge chest points from multiple JSON files in a directory:
-node lrMergeChests.js ./inputDirectory
+
+`node lrMergeChests.js ./inputDirectory`
 
 ### Interpolation Script
 
 To run the building script, use the following command:
-node lrSortAndBuild.js [inputFile] [outputFile] [--interpolate distance] [--override height]
+
+`node lrSortAndBuild.js [inputFile] [outputFile] [--interpolate distance] [--override height]`
 
 #### Parameters
 
@@ -46,14 +49,16 @@ node lrSortAndBuild.js [inputFile] [outputFile] [--interpolate distance] [--over
 #### Examples
 
 To generate a lootrun with a maximum gap of 16 units between points, and set all point heights to 128:
-node lrSortAndBuild.js ./input.json ./output.json --interpolate 16 --override 128
 
+`node lrSortAndBuild.js ./input.json ./output.json --interpolate 16 --override 128`
 
 To generate a lootrun with interpolated points but without overriding the height:
-node lrSortAndBuild.js ./input.json ./output.json --interpolate 16
+
+`node lrSortAndBuild.js ./input.json ./output.json --interpolate 16`
 
 To generate a lootrun with just sorted points:
-node lrSortAndBuild.js ./input.json ./output.json
+
+`node lrSortAndBuild.js ./input.json ./output.json`
 
 ## Maintenance and Contributions
 
